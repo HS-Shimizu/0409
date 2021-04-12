@@ -53,6 +53,11 @@ public class check extends HttpServlet {
 		String ym = year + month;
 //----------検索-------------------------
 
+		/**
+		 * 検索
+		 *
+		 *
+		 */
 		if(stamp.equals("search")) {
 			String message;
 			// 年月が正しいか確認
@@ -76,6 +81,11 @@ public class check extends HttpServlet {
 
 		}
 //----------追加-------------------------
+		/**
+		 * 追加
+		 *
+		 *
+		 */
 		else if(stamp.equals("update")) {
 //			boolean bool = false;
 
@@ -109,6 +119,11 @@ public class check extends HttpServlet {
 
 		}
 //----------削除-------------------------
+		/**
+		 * 削除
+		 *
+		 *
+		 */
 		else if(stamp.equals("delete")) {
 
 			List<Time> times = new ArrayList<Time>();
